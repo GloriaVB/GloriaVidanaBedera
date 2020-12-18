@@ -1,0 +1,302 @@
+body{
+    background-color: whitesmoke;
+    max-width: 1000px;
+    margin: 0px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header h1{
+    padding-top: 10px;
+    margin-left: 5px;
+    font-size: 35px;
+    color: rgb(54, 2, 2);
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+header nav{
+    background-color: rgb(31, 1, 1);
+}
+
+header nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+    padding: 15px 20px;
+    font-size: 1em;
+}
+
+header nav ul li a{
+    color: rgb(179, 174, 174);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+.logo{
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 6%;
+}
+
+main p{
+    font-size: 0.8em;
+    line-height: 1.8em;
+    color: #686464;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+main h2{
+    color: rgb(54, 2, 2);
+    padding: 0px 5px; 
+    margin-left: 5px;
+}
+
+main h3{
+    color: rgb(54, 2, 2);
+    padding: 0px 5px; 
+    margin-left: 5px;
+}
+
+.intro{
+    box-sizing: border-box;
+    border: 1px solid rgb(31, 1, 1);
+    margin: 10px;
+    width: 98%;
+    padding: 10px 10px;
+    height: auto;
+}
+
+.intro a{
+    text-decoration: none;
+    color: rgb(54, 2, 2);
+}
+
+.intro a:hover{
+    color: rgb(184, 129, 129);
+}
+
+.section{
+    box-sizing: border-box;
+    border: 1px solid rgb(31, 1, 1);
+    margin: 10px;
+    width: 48%;
+    float: left;
+    padding: 10px 10px;
+    height: auto;
+}
+
+.section a{
+    text-decoration: none;
+    color: rgb(54, 2, 2);
+}
+
+.section a:hover{
+    color: rgb(184, 129, 129);
+}
+
+.section2{
+    box-sizing: border-box;
+    border: 1px solid rgb(31, 1, 1);
+    margin: 10px;
+    width: 48%;
+    float: left;
+    padding: 10px 10px 56px 10px;
+    height: auto;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: rgb(54, 2, 2);
+}
+
+.section2 a:hover{
+    color: rgb(184, 129, 129);
+}
+
+.shop{
+    clear: both;
+    background-color: rgb(184, 129, 129);
+    border: 1px solid rgb(31, 1, 1);
+    margin: 10px;
+    padding: 15px 15px;
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.shop div{
+    width: 48%;
+}
+
+.shop a{
+    color: rgb(31, 1, 1);
+}
+
+.shop a:hover{
+    color: rgb(247, 228, 228);
+}
+
+.shop p{
+    padding-right: 15px;
+    font-size: 0.85em;
+    color: rgb(31, 1, 1);
+}
+
+.shop img{
+    width: 48%;
+    height: 25.07%;
+    padding: 10px 10px;
+}
+
+.mandamientos{
+    box-sizing: border-box;
+    background-color: rgb(184, 129, 129);
+    border: 1px solid rgb(31, 1, 1);
+    margin: 20px 10px;
+    width: 98%;
+    padding: 20px 10px;
+    height: auto;
+}
+
+.mandamientos a{
+    padding-right: 15px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    color: rgb(31, 1, 1);
+}
+
+.mandamientos a:hover{
+    color: rgb(247, 228, 228);
+}
+
+.mandamientos p{
+    padding-right: 15px;
+    font-size: 0.85em;
+    color: rgb(31, 1, 1);
+    width: 65%;
+}
+
+.mandamientos video{
+    width: 28%;
+    float: right;
+    margin-right: 2.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.estructura{
+    width: 660px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.mafiasitalianas{
+    margin-right: 10px;
+}
+
+.mafiasitalianas p{
+    width: 70%;
+}
+
+.cosaNostra{
+    padding-top: 12%;
+    float: right;
+    height: 250px;
+    padding-left: 10px;
+}
+
+.camorra{
+    padding-top: 28%;
+    float: right;
+    height: 250px;
+    padding-left: 10px;
+}
+
+.ndrangheta{
+    float: right;
+    height: 230px;
+    padding-left: 10px;
+}
+
+.sacraCoronaUnita{
+    float: right;
+    height: 230px;
+    padding-left: 10px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid rgb(31, 1, 1);
+}
+
+th, td{
+    vertical-align: middle;
+    border: 1px solid rgb(31, 1, 1);
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+
+th{
+    text-align: center;
+    width: 12%;
+    background-color: rgb(189, 135, 135);
+    color: rgb(54, 2, 2);
+}
+
+td{
+    text-align: justify;
+    background-color: rgb(247, 229, 229);
+    color: #585555;
+    padding: 5px 10px;
+}
+
+.titulo{
+    font-size: 1em;
+    background-color: rgb(156, 102, 102);
+    color: rgb(34, 1, 1);
+}
+
+footer{
+    background-color: rgb(250, 219, 219);
+    border-top: 2px solid rgb(31, 1, 1);
+    padding: 10px 30px;
+    overflow: hidden;
+    margin: 15px 0px 10px 0px;
+}
+
+footer h2{
+    color: rgb(54, 2, 2);
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 0.75em;
+    line-height: 2em;
+    color: rgb(114, 95, 95);
+}
+
+footer a:hover{
+    color: rgb(31, 1, 1);
+}
+
+.contacto{
+    width: 55%;
+    float: left;
+}
